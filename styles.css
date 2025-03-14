@@ -44,6 +44,12 @@
     color: #333;
 }
 
+.correo-paypal {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
 .proximamente-mas {
     font-size: 0.9em;
     color: #666;
