@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
@@ -18,13 +18,13 @@ body {
 header {
     background-color: #2c3e50;
     color: white;
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
 }
 
@@ -34,23 +34,54 @@ header p {
     color: #ecf0f1;
 }
 
-/* Sección Hero */
-.hero {
+/* Navegación */
+nav {
     background-color: #3498db;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     color: white;
-    padding: 60px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección Bienvenida */
+.bienvenida {
+    padding: 40px 0;
+    background-color: white;
     text-align: center;
 }
 
-.hero h2 {
+.bienvenida h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.2em;
-    margin: 0;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
 }
 
-.hero p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
+.bienvenida p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* Sección de Cursos */
@@ -72,13 +103,12 @@ header p {
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
-    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .curso h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 15px;
     color: #2c3e50;
 }
