@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
 }
@@ -18,26 +18,29 @@ body {
 header {
     background-color: #2c3e50;
     color: white;
-    padding: 60px 0;
+    padding: 40px 0;
     text-align: center;
+    border-bottom: 4px solid #3498db;
 }
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0;
+    font-weight: 600;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 10px 0 0;
     color: #ecf0f1;
 }
 
 /* Navegación */
 nav {
-    background-color: #3498db;
+    background-color: #ffffff;
     padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -54,14 +57,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #2c3e50;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #3498db;
+    color: white;
 }
 
 /* Sección Bienvenida */
@@ -69,6 +76,7 @@ nav ul li a:hover {
     padding: 40px 0;
     background-color: white;
     text-align: center;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .bienvenida h2 {
@@ -76,12 +84,14 @@ nav ul li a:hover {
     font-size: 2em;
     margin-bottom: 20px;
     color: #2c3e50;
+    font-weight: 600;
 }
 
 .bienvenida p {
     font-size: 1.1em;
     max-width: 600px;
     margin: 0 auto;
+    color: #555;
 }
 
 /* Sección de Cursos */
@@ -96,14 +106,16 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 30px;
     color: #2c3e50;
+    font-weight: 600;
 }
 
 .curso {
-    background-color: #ecf0f1;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
 }
 
 .curso h3 {
@@ -111,11 +123,13 @@ nav ul li a:hover {
     font-size: 1.5em;
     margin-bottom: 15px;
     color: #2c3e50;
+    font-weight: 600;
 }
 
 .curso p {
     font-size: 1em;
     margin-bottom: 15px;
+    color: #555;
 }
 
 .curso ul {
@@ -127,6 +141,7 @@ nav ul li a:hover {
 .curso ul li {
     margin: 10px 0;
     font-size: 0.95em;
+    color: #555;
 }
 
 .btn {
@@ -135,7 +150,7 @@ nav ul li a:hover {
     background-color: #3498db;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 1em;
     transition: background-color 0.3s ease;
 }
@@ -152,8 +167,10 @@ nav ul li a:hover {
 /* Sección de Métodos de Pago */
 .metodos-pago {
     padding: 40px 0;
-    background-color: #ecf0f1;
+    background-color: #f9f9f9;
     text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .metodos-pago h2 {
@@ -161,11 +178,13 @@ nav ul li a:hover {
     font-size: 2em;
     margin-bottom: 20px;
     color: #2c3e50;
+    font-weight: 600;
 }
 
 .metodos-pago p {
     font-size: 1.1em;
     margin-bottom: 30px;
+    color: #555;
 }
 
 .metodos {
@@ -180,6 +199,7 @@ nav ul li a:hover {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
     width: 150px;
 }
 
@@ -220,11 +240,13 @@ nav ul li a:hover {
     font-size: 2em;
     margin-bottom: 20px;
     color: #2c3e50;
+    font-weight: 600;
 }
 
 .proximamente p {
     font-size: 1.1em;
     margin-bottom: 30px;
+    color: #555;
 }
 
 /* Pie de página */
@@ -234,6 +256,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+    border-top: 4px solid #3498db;
 }
 
 footer p {
